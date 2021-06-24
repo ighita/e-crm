@@ -1,0 +1,31 @@
+.people-wrapper, .clients-wrapper, .leads-wrapper, .costs-wrapper, .orders-wrapper, .tasks-wrapper {
+    .card {
+        .card-header {
+            justify-content: space-around;
+            a {
+                color: #000;
+                text-transform: uppercase;
+                font-weight: 800;
+                font-size: 30px;
+            }
+        }
+
+        .table-responsive {
+
+            .person-photo {
+                img {
+                    border-radius: 50%;
+
+                }
+            }
+        }
+    }
+}
+
+.star-button {
+    background: transparent;
+    border: 0;
+    &:hover {
+        cursor: pointer;
+    }
+}
